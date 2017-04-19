@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:launcherscreen="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listlayout"
+
+        >
+
+        <com.example.varun.digitallearning.FTextView
+            launcherscreen:fontName="Herculanum.ttf"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:background="#ff78dbff"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Users"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/tv1"
+            />
+
+        <ListView android:id="@+id/user_list"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv1"
+            android:padding="10dp"
+            android:background="#ffeffffc"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/listlayout"
+        android:background="@drawable/bg_adduser"
+        android:layout_centerVertical="true"
+        >
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnadduser"
+            android:background="@drawable/buttonselector5"
+            android:src="@drawable/ic_add_user"
+            android:scaleType="fitXY"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

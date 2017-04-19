@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dots_b"
+
+    >
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnback"
+        android:src="@drawable/ic_menu_back"
+        android:background="@drawable/buttonselector4"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rldots"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_image"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+
+        >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="60dp"
+        >
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/dots1"
+            android:scaleType="fitXY"
+            android:src="@drawable/dots_icecream"
+            android:background="#ffcc0000"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/dots2"
+            android:scaleType="fitXY"
+            android:src="@drawable/dots_kite"
+            android:background="#ffcc0000"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            />
+
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/dots3"
+            android:scaleType="fitXY"
+            android:src="@drawable/dots_football"
+            android:background="#ffcc0000"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            />
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/dots4"
+            android:scaleType="fitXY"
+            android:src="@drawable/dots_flower"
+            android:background="#ffcc0000"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            />
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/dots5"
+            android:scaleType="fitXY"
+            android:src="@drawable/dots_star"
+            android:background="#ffcc0000"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            />
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/dots6"
+            android:scaleType="fitXY"
+            android:src="@drawable/dots_car"
+            android:background="#ffcc0000"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            />
+
+
+
+    </LinearLayout>
+<!--
+    <com.example.varun.connectdots.ConnectView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/connectview"
+        android:layout_below="@+id/btnback"
+        />-->
+</RelativeLayout>

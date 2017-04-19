@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:launcherscreen="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <com.example.varun.digitallearning.FTextView
+        launcherscreen:fontName="Herculanum.ttf"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_password"
+        android:layout_centerHorizontal="true"
+        android:textColor="#D46E13"
+        android:background="#00000000"
+        android:textSize="30px"
+        android:id="@+id/tvpswd"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvpswd"
+        android:layout_centerInParent="true"
+        android:id="@+id/imgpswd"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/circle"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/circle"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView3"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/circle"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView4"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/circle"
+
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgpswd"
+        android:layout_centerInParent="true"
+        android:id="@+id/pswdbtns"
+        android:layout_marginTop="20dp"
+
+        >
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="1"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn1"
+        android:layout_marginRight="50dp"
+
+        />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="2"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn2"
+
+        android:layout_toRightOf="@+id/btn1"
+
+        />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="3"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn3"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/btn2"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="4"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn4"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/btn1"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="5"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn5"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn2"
+        android:layout_toRightOf="@+id/btn4"
+    />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="6"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn6"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/btn3"
+        android:layout_toRightOf="@+id/btn5"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="7"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn7"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/btn4"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="8"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn8"
+        android:layout_marginTop="10dp"
+
+        android:layout_below="@+id/btn5"
+        android:layout_toRightOf="@+id/btn7"
+    />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="9"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn9"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/btn6"
+        android:layout_toRightOf="@+id/btn8"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="#"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn10"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/btn7"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="0"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn11"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btn8"
+        android:layout_toRightOf="@+id/btn10"
+    />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=">"
+        android:textSize="30px"
+        android:textColor="#ff6603"
+        android:background="@drawable/pwdselector"
+        android:id="@+id/btn12"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/btn9"
+        android:layout_toRightOf="@+id/btn11"
+        android:layout_marginTop="10dp"
+    />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pswdbtns"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        >
+
+        <com.example.varun.digitallearning.FButton
+            launcherscreen:fontName="Herculanum.ttf"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="@string/btn1_name"
+            android:background="@drawable/buttonselector2"
+            android:id="@+id/cancelbtn"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:textSize="30px"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="0dp"
+
+            android:layout_toLeftOf="@+id/skipbtn"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="50dp"
+
+
+            />
+
+
+
+        <com.example.varun.digitallearning.FButton
+            launcherscreen:fontName="Herculanum.ttf"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="@string/btn3_name"
+            android:textColor="#ffffff"
+            android:id="@+id/skipbtn"
+            android:textSize="30px"
+            android:background="@drawable/buttonselector3"
+            android:layout_centerInParent="true"
+
+
+
+            />
+
+        <com.example.varun.digitallearning.FButton
+            launcherscreen:fontName="Herculanum.ttf"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="@string/btn2_name"
+            android:textColor="#ffffff"
+            android:id="@+id/nextbtn"
+            android:textSize="30px"
+            android:background="@drawable/buttonselector"
+
+            android:layout_toRightOf="@+id/skipbtn"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+
+
+            />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:src="@drawable/bottom_bar"
+        android:baselineAlignBottom="true"
+        android:layout_alignParentBottom="true"
+
+        />
+
+</RelativeLayout>
